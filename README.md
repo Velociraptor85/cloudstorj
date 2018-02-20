@@ -22,13 +22,14 @@ Note: hit 'enter', 'no' to improve SDK, 'no' to continue
 ```gcloud init```          
 
 Note: here you have to log into your account, then select a project. Select the available
-project name and note it down!
+project name (for instance, esoteric-cab-195717) and note it down!
 
-Now, you should have a public ETH address and a project name. Simply run
+4. Now, you should have a public ETH address and a project name. Simply run
 
-sh create_storj.sh PROJECT_NAME ETH_ADDRESS
+```sh create_storj.sh PROJECT_NAME ETH_ADDRESS```
+Where PROJECT_NAME is the name you wrote down, and ETH_ADDRESS is your ethereum address,
 
-And click the natural choices if prompted (typically 'y'). Congratilations, you are now a Storj node and 
+and click the natural choices if prompted (typically 'y'). Congratulations, you are now a Storj node and 
 all you have to do is wait for your money to come in! 
 
 To check status, log in via ssh to your instance (log in to google cloud and find the virtual machine. Click on it and you should be given an option to connect) and type: storjshare status. After a month or so you should be sharing at least 200GB.
