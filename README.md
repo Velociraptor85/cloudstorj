@@ -18,6 +18,7 @@ How to use (Linux users):
 Note: hit 'enter', 'no' to improve SDK, 'no' to continue
 
 ```exec -l $SHELLR```
+
 ```gcloud init```          
 
 Note: here you have to log into your account, then select a project. Select the available
