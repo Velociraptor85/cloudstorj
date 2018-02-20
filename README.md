@@ -16,8 +16,10 @@ How to use (Linux users):
 
 curl https://sdk.cloud.google.com | bash         
 Note: hit 'enter', 'no' to improve SDK, 'no' to continue
+
 exec -l $SHELLR
 gcloud init                     
+
 Note: here you have to log into your account, then select a project. Select the available
 project name and note it down!
 
