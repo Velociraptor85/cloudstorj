@@ -14,7 +14,7 @@ How to use (Linux users):
 
 3. Run the following 3 commands in a terminal to initiate google cloud (just give reasonable answers to the questions)
 
-'''curl https://sdk.cloud.google.com | bash '''        
+´´´curl https://sdk.cloud.google.com | bash ´´´      
 Note: hit 'enter', 'no' to improve SDK, 'no' to continue
 
 '''exec -l $SHELLR'''
