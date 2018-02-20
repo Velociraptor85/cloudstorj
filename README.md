@@ -29,3 +29,4 @@ And click the natural choices if prompted (typically 'y'). Congratilations, you 
 all you have to do is wait for your money to come in! 
 
 To check status, log in via ssh to your instance (log in to google cloud and find the virtual machine. Click on it and you should be given an option to connect) and type: storjshare status. After a month or so you should be sharing at least 200GB.
+
