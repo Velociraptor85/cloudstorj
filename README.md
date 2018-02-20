@@ -14,9 +14,18 @@ How to use (Linux users):
 
 3. Run the following 3 commands in a terminal to initiate google cloud (just give reasonable answers to the questions)
 
-curl https://sdk.cloud.google.com | bash          ### Note: hit 'enter', 'no' to improve SDK, 'no' to continue
-exec -l $SHELL
-gcloud init                     ### Note: here you have to log into your account, then select a project. Select the available
-                                ### project name. 
+curl https://sdk.cloud.google.com | bash         
+### Note: hit 'enter', 'no' to improve SDK, 'no' to continue
+exec -l $SHELLR
+gcloud init                     
+### Note: here you have to log into your account, then select a project. Select the available
+### project name and note it down!
 
-Now, you should have a public ETH address and a project name
+Now, you should have a public ETH address and a project name. Simply run
+
+sh create_storj.sh PROJECT_NAME ETH_ADDRESS
+
+And click the natural choices if prompted (typically 'y'). Congratilations, you are now a Storj node and 
+all you have to do is wait for your money to come in! 
+
+To check status, log in via ssh to your instance (log in to google cloud and find the virtual machine. Click on it and you should be given an option to connect) and type: storjshare status. After a month or so you should be sharing at least 200GB.
