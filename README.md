@@ -21,7 +21,7 @@ Note: hit 'enter', 'no' to improve SDK, 'no' to continue
 ```gcloud init```    
 
 Note: here you have to log into your account, then select a project. Select the available
-project name (for instance, esoteric-cab-195717) and note it down!
+project name (for instance, esoteric-cab-195717) and note it down! Also, make sure you enter the region 'us-east1-b'.
 
 4. Now, you should have a public ETH address and a project name. Simply run
 
