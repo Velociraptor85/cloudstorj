@@ -28,8 +28,8 @@ project name (for instance, esoteric-cab-195717) and note it down! Also, make su
 ```sh create_storj.sh PROJECT_NAME ETH_ADDRESS```
 Where PROJECT_NAME is the name you wrote down, and ETH_ADDRESS is your ethereum address,
 
-and click the natural choices if prompted (typically 'y'). Congratulations, you are now a Storj node and 
-all you have to do is wait for your money to come in! 
+and click the natural choices if prompted (typically 'y'). In the very last step, you will be shown a text editor with a lot of text - here you write :wq and press enter. Congratulations, you are now a Storj node and 
+all you have to do is wait for your money to roll in! 
 
 To check status, log in via ssh to your instance (log in to google cloud and find the virtual machine. Click on it and you should be given an option to connect) and type: storjshare status. After a month or so you should be sharing at least 200GB.
 
