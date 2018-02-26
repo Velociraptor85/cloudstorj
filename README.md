@@ -10,22 +10,19 @@ How to use (Linux users):
 1. Start a google cloud account, at cloud.google.com
 2. Get an ethereum address, at www.myetherwallet.com (follow the instructions, and don't forget to write down the words!)
 
-3. Run the following 3 commands in a terminal to initiate google cloud (just give reasonable answers to the questions)
+3. Run the following 3 commands in a terminal to initiate google cloud:
 
-  ```curl https://sdk.cloud.google.com | bash ```
+   ```curl https://sdk.cloud.google.com | bash ```
 
-  ```exec -l $SHELLR``` 
+   ```exec -l $SHELLR``` 
 
-  ```gcloud init```    
+   ```gcloud init```    
 
-  Note: hit 'enter', 'no' to improve SDK, 'no' to continue
-
-
-
-Note: here you have to log into your account, then select a project. Select the available
-project name (for instance, esoteric-cab-195717) and note it down! Also, make sure you enter the region 'us-east1-b'.
-
-4. Now, you should have a public ETH address and a project name. Simply run
+   Answer the questions reasonably, after the first command, the answers for me were: 'enter', 'no' (to improve SDK), 'no'
+   After the last command, you will have to have to log into your account, and select a project. Select the available
+   project name (for instance, esoteric-cab-195717) and note it down! Also, make sure you enter the region 'us-east1-b'.
+  
+4. Now, you should have a public ETH address and a project name. Simply run:
 
 ```sh create_storj.sh PROJECT_NAME ETH_ADDRESS```
 Where PROJECT_NAME is the name you wrote down, and ETH_ADDRESS is your ethereum address,
