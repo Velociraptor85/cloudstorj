@@ -20,7 +20,7 @@ How to use (Linux users):
 
    ```gcloud init```    
 
-   Answer the questions reasonably, after the first command, the answers for me were: 'enter', 'no' (to improve SDK), 'no'
+   Answer the questions reasonably, after the first command, the answers for me were: 'enter' (for default path), 'no' (to improve SDK), 'no', (to continue with "modifying the profile")
    After the last command, you will have to have to log into your account, and select a project. Select the available
    project name (for instance, esoteric-cab-195717) and note it down! Also, make sure you enter the region 'us-east1-b'.
 
