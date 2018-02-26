@@ -21,11 +21,14 @@ How to use (Linux users):
    Answer the questions reasonably, after the first command, the answers for me were: 'enter', 'no' (to improve SDK), 'no'
    After the last command, you will have to have to log into your account, and select a project. Select the available
    project name (for instance, esoteric-cab-195717) and note it down! Also, make sure you enter the region 'us-east1-b'.
-  
-4. Now, you should have a public ETH address and a project name. Simply run:
 
-```sh create_storj.sh PROJECT_NAME ETH_ADDRESS```
-Where PROJECT_NAME is the name you wrote down, and ETH_ADDRESS is your ethereum address,
+4. Now, run
+   ```winowdoinw```
+
+5. Now, you should have a public ETH address and an external ip. Simply run:
+
+   ```sh create_storj.sh EXTERNAL_IP ETH_ADDRESS```
+   Where EXTERNAL_IP is the name you wrote down, and ETH_ADDRESS is your ethereum address,
 
 and click the natural choices if prompted (typically 'y'). In the very last step, you will be shown a text editor with a lot of text - here you write :wq and press enter. Congratulations, you are now a Storj node and 
 all you have to do is wait for your money to roll in! 
