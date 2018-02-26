@@ -27,14 +27,14 @@ How to use (Linux users):
 5. Now, run
    
    ```sh create_vm.sh PROJECT_NAME```
-   Where PROJECT_NAME is the project name you just noted down. When the command is done. You will see a table with an entry       called 'External IP'. Write this down. This looks like 32.302.14.203 or something.
+   Where PROJECT_NAME is the project name you just noted down. You will have to press 'y'. When the command is done, you will see a table with an entry       called 'External IP'. Write this down. This looks like 32.302.14.203 or something.
 
 6. Now, you should have a public ETH address and an external ip. Simply run:
 
    ```sh create_storj.sh EXTERNAL_IP ETH_ADDRESS```
    Where EXTERNAL_IP is the name you wrote down, and ETH_ADDRESS is your ethereum address,
 
-and click the natural choices if prompted (typically 'y'). In the very last step, you will be shown a text editor with a lot of text - here you write :wq and press enter. Congratulations, you are now a Storj node and 
+   and click the natural choices if prompted (typically 'y' to continue). In the very last step, you will be shown a text editor with a lot  of text - here you write :wq and press enter. Congratulations, you are now a Storj node and 
 all you have to do is wait for your money to roll in! 
 
 To check status, log in via ssh to your instance (log in to google cloud and find the virtual machine. Click on it and you should be given an option to connect) and type: storjshare status. After a month or so you should be sharing at least 200GB.
