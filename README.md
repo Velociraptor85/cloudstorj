@@ -7,7 +7,7 @@ mining during the free trial, but this is not mining - this is renting out your 
 
 How to use (Linux users):
 
-1. Start a google cloud account, at cloud.google.com
+1. Get a free google cloud account, at cloud.google.com
 2. Get an ethereum address, at www.myetherwallet.com (follow the instructions, and don't forget to write down the words!)
 
 3. Run the following 3 commands in a terminal to initiate google cloud:
