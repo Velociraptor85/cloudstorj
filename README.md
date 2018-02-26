@@ -9,8 +9,10 @@ How to use (Linux users):
 
 1. Get a free google cloud account, at cloud.google.com
 2. Get an ethereum address, at www.myetherwallet.com (follow the instructions, and don't forget to write down the words!)
+3. Now, download this repository and navigate to the folder (will also install git if you don't have it:
 
-3. Run the following 3 commands in a terminal to initiate google cloud:
+   ```sudo apt-get install git && git clone https://github.com/Pampyz/cloudstorj && cd cloudstorj ```
+4. Run the following 3 commands in a terminal to initiate google cloud:
 
    ```curl https://sdk.cloud.google.com | bash ```
 
@@ -22,12 +24,12 @@ How to use (Linux users):
    After the last command, you will have to have to log into your account, and select a project. Select the available
    project name (for instance, esoteric-cab-195717) and note it down! Also, make sure you enter the region 'us-east1-b'.
 
-4. Now, run
+5. Now, run
    
    ```sh create_vm.sh PROJECT_NAME```
    Where PROJECT_NAME is the project name you just noted down. When the command is done. You will see a table with an entry       called 'External IP'. Write this down. This looks like 32.302.14.203 or something.
 
-5. Now, you should have a public ETH address and an external ip. Simply run:
+6. Now, you should have a public ETH address and an external ip. Simply run:
 
    ```sh create_storj.sh EXTERNAL_IP ETH_ADDRESS```
    Where EXTERNAL_IP is the name you wrote down, and ETH_ADDRESS is your ethereum address,
