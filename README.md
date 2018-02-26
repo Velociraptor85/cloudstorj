@@ -29,7 +29,7 @@ How to use (Linux users):
    ```sh create_vm.sh PROJECT_NAME```
    Where PROJECT_NAME is the project name you just noted down. 
    
-  Example: sh create_vm.sh esoteric-cab-195717
+   Example: sh create_vm.sh esoteric-cab-195717
    
    You will have to press 'y'. When the command is done, you will see a table with an entry called 'External IP'. Write this down. This looks like 32.302.14.203 or something.
 
