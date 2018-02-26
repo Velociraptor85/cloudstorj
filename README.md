@@ -29,7 +29,7 @@ How to use (Linux users):
    ```sh create_vm.sh PROJECT_NAME```
    Where PROJECT_NAME is the project name you just noted down. 
    
-   Example: sh create_vm.sh esoteric-cab-195717
+   Example: ```sh create_vm.sh esoteric-cab-195717```
    
    You will have to press 'y'. When the command is done, you will see a table with an entry called 'External IP'. Write this down. This looks like 32.302.14.203 or something.
 
@@ -38,7 +38,7 @@ How to use (Linux users):
    ```sh create_storj.sh EXTERNAL_IP ETH_ADDRESS```
    Where EXTERNAL_IP is the name you wrote down, and ETH_ADDRESS is your ethereum address. 
    
-   Example: sh create_storj.sh 35.231.16.28 0x7D53b23e0f9004E3B15F5965ca2BBC56ED2E1Cc8
+   Example: ```sh create_storj.sh 35.231.16.28 0x7D53b23e0f9004E3B15F5965ca2BBC56ED2E1Cc8```
 
    Then click the natural choices if prompted (typically 'y' to continue). In the very last step, you will be shown a text editor with a lot  of text - here you write :wq and press enter. Congratulations, you are now a Storj node and 
 all you have to do is wait for your money to roll in! 
