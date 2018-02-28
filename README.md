@@ -16,7 +16,7 @@ How to use (Linux users):
 
    ```curl https://sdk.cloud.google.com | bash ```
 
-   ```exec -l $SHELLR``` 
+   ```exec -l $SHELL``` 
 
    ```gcloud init```    
 
