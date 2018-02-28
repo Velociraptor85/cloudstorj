@@ -9,6 +9,7 @@ gcloud compute ssh storj --command='sudo apt-get -y update && sudo apt-get -y up
 #get nvm, npm, storjshare-daemon
 gcloud compute ssh storj --command='wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash '
 gcloud compute ssh storj --command='nvm install --lts && npm install --global storjshare-daemon'
+gcloud compute ssh storj --command='nvm alias default \'lts/*\''
 
 #prepare storage location 
 gcloud compute ssh storj --command='sudo mkdir /home/storj && sudo chmod 777 /home/storj'
